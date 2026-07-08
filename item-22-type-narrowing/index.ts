@@ -140,3 +140,24 @@ type Props =
         </button>
     );
 } */
+
+// Custom type guards
+interface User {
+    name: string;
+}
+
+// If true value is a user
+function isUser(value: unknown): value is User {
+    return (
+        typeof value === "object" &&
+        value !== null &&
+        "name" in value
+    );
+}
+
+function process3(value: unknown) {
+  if (isUser(value)) {
+    // Value is type User
+    console.log(value.name);
+  }
+}
