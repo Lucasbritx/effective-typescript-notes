@@ -116,3 +116,27 @@ function renderState(state: State) {
             return state.error.message;
     }
 }
+
+// React example
+type Props =
+    | {
+        variant: "link";
+        href: string;
+    }
+    | {
+        variant: "button";
+        onClick: () => void;
+    };
+
+/* function Action(props: Props) {
+    if (props.variant === "link") {
+        // Typescript knows href exists
+        return <a href={props.href}> Open </a>;
+    }
+
+    return (
+        <button onClick={props.onClick} >
+            Click
+        </button>
+    );
+} */
