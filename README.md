@@ -30,8 +30,8 @@ Repo to Effective Typescript book examples
 19. Avoid Cluttering Your Code with Inferable Types
 20. Use Different Variables for Different Types
 21. Understand Type Widening
-22. Understand Type Narrowing
--> [Substack post](https://open.substack.com/pub/lucasbrits/p/understanding-type-narrowing-in-typescript?r=fklu1&utm_campaign=post-expanded-share&utm_medium=web)
+22. Understand Type Narrowing \
+-> [Substack post](https://open.substack.com/pub/lucasbrits/p/understanding-type-narrowing-in-typescript?r=fklu1&utm_campaign=post-expanded-share&utm_medium=web) \
 -> [Code examples](https://github.com/Lucasbritx/effective-typescript-notes/blob/main/item-22-type-narrowing/index.ts)
 23. Create Objects All at Once
 24. Be Consistent in Your Use of Aliases
