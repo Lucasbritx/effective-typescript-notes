@@ -1,5 +1,5 @@
-# effective-typescript-notes
-Repo to effective typescript book examples
+# Effective Typescript Notes
+Repo to Effective Typescript book examples
 
 ## Chapter 1 — Getting to Know TypeScript
 
@@ -30,7 +30,7 @@ Repo to effective typescript book examples
 19. Avoid Cluttering Your Code with Inferable Types
 20. Use Different Variables for Different Types
 21. Understand Type Widening
-22. Understand Type Narrowing
+22. [Understand Type Narrowing](https://open.substack.com/pub/lucasbrits/p/understanding-type-narrowing-in-typescript?r=fklu1&utm_campaign=post-expanded-share&utm_medium=web)
 23. Create Objects All at Once
 24. Be Consistent in Your Use of Aliases
 25. Use Async Functions Instead of Callbacks for Asynchronous Code
